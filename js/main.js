@@ -64,9 +64,11 @@ if (langBtn && langSelector) {
             langBtn.querySelector('.lang-flag').textContent = flag;
             langBtn.querySelector('.lang-code').textContent = code;
             
-            // Set language
+            // Set language and translate page
             if (typeof setLanguage === 'function') {
                 setLanguage(lang);
+            } else if (typeof translatePage === 'function') {
+                translatePage(lang);
             } else {
                 localStorage.setItem('preferredLanguage', lang);
             }
