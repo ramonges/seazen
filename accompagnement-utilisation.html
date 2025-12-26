@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accompagnement Utilisation - SeaZen</title>
+    <meta name="description" content="SeaZen vous accompagne dans l'exploitation de vos bateaux solaires. Formation, support et bonnes pratiques pour une utilisation optimale.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <h1>SeaZen</h1>
+                </a>
+                
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Accueil</a></li>
+                        
+                        <li class="nav-dropdown">
+                            <a href="#" class="nav-link">À propos <span class="arrow">▼</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+                                <li><a href="media.html">TV, radio, presse</a></li>
+                                <li><a href="actualite.html">Actualité</a></li>
+                                <li><a href="contact.html">Aide & contact</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-dropdown">
+                            <a href="#" class="nav-link">Tours et location <span class="arrow">▼</span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-section">
+                                    <span class="dropdown-title">Tours privés</span>
+                                    <ul>
+                                        <li><a href="tours-monaco-nice.html">Entre Monaco et Nice</a></li>
+                                        <li><a href="tours-antibes-cannes.html">Entre Antibes et Cannes</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li><a href="boat-club.html">Location Boat Club</a></li>
+                                <li><a href="dispersion-cendres.html">Dispersion des Cendres</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-dropdown">
+                            <a href="#" class="nav-link">Construction <span class="arrow">▼</span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-section">
+                                    <span class="dropdown-title">Bateaux solaires</span>
+                                    <ul>
+                                        <li><a href="bateaux-sre23.html">SEAZEN SRE 23</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-section">
+                                    <span class="dropdown-title">Accompagnement</span>
+                                    <ul>
+                                        <li><a href="accompagnement-utilisation.html">Utilisation</a></li>
+                                        <li><a href="accompagnement-partenariat.html">Partenariat</a></li>
+                                        <li><a href="accompagnement-retrofit.html">Retrofit</a></li>
+                                        <li><a href="accompagnement-strategie.html">Stratégie</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <div class="language-selector">
+                        <button class="lang-btn" id="langBtn">
+                            <span class="lang-flag">🇫🇷</span>
+                            <span class="lang-code">FR</span>
+                            <span class="arrow">▼</span>
+                        </button>
+                        <ul class="lang-dropdown" id="langDropdown">
+                            <li><a href="#" data-lang="fr" class="lang-option active">🇫🇷 Français</a></li>
+                            <li><a href="#" data-lang="en" class="lang-option">🇬🇧 English</a></li>
+                            <li><a href="#" data-lang="es" class="lang-option">🇪🇸 Español</a></li>
+                            <li><a href="#" data-lang="it" class="lang-option">🇮🇹 Italiano</a></li>
+                        </ul>
+                    </div>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Utilisation</h1>
+            <p>Comment fonctionne un bateau solaire ?</p>
+        </div>
+    </section>
+
+    <!-- Page Content -->
+    <section class="page-content">
+        <div class="container">
+            <div class="content-section">
+                <p style="color: var(--gray); margin-bottom: 2rem;">Un bateau solaire est un bateau 100% autonome grâce à l'énergie photovoltaïque de ses panneaux solaires. Spécialement conçu pour naviguer infiniment à l'énergie solaire, même la nuit, il est équipé de batteries. Un bon capitaine peut gérer l'énergie et piloter le bateau des années sans le recharger sur le réseau.</p>
+            </div>
+
+            <div class="content-section">
+                <h2>Gérer l'autonomie électrique</h2>
+                
+                <div style="background: var(--light-gray); padding: 2.5rem; border-radius: 12px; margin-top: 2rem; margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1.5rem;">Principes</h3>
+                    <p style="color: var(--gray); margin-bottom: 1.5rem;">L'autonomie théorique d'un bateau électrique dépend de 2 facteurs essentiels à comprendre.</p>
+                    <ul style="margin-left: 2rem; line-height: 2.5; color: var(--gray);">
+                        <li><strong>La capacité de la batterie</strong> est exprimée en wattheures (Wh). Plus la capacité de la batterie est élevée, plus l'autonomie est importante.</li>
+                        <li><strong>La puissance utilisée du moteur</strong> détermine la consommation électrique. Elle est exprimée en watts (W) ou en kW (1 kW = 1000 W). Un moteur de 6 kW peut n'être utilisé qu'à 1 kW la plupart du temps, ce qui n'a rien à voir avec les 6 kW de puissance maximale qui peuvent avoir leur utilité pour des raisons de sécurité.</li>
+                    </ul>
+                    <p style="color: var(--gray); margin-top: 1.5rem;">L'autonomie en heures (h) est donnée par le rapport Capacité (Wh) / Puissance (W). Par exemple si votre batterie stocke 6 kWh et que vous poussez votre moteur à 1000 W, alors votre autonomie est de 6 heures (=6 x 1000 / 1000).</p>
+                </div>
+
+                <div style="background: var(--light-gray); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1.5rem;">Vitesse de plaisance</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem;">C'est la vitesse optimale pour la plaisance et la sécurité des passagers. Cette vitesse dépend des conditions météorologiques. Par exemple, naviguer à la vitesse maximale du bateau réduit le confort en cas de houle. Il est même dangereux d'aller vite sur une mer plate et de croiser soudain le sillage d'un yacht à moteur. Une réserve de puissance offre une certaine sécurité par mauvais temps, mais plus les vagues sont grosses, moins la vitesse de plaisance sera élevée. Cette vitesse dépend également de la position des passagers sur le bateau. Avec des passagers assis à l'avant, il convient d'être extrêmement vigilant pour éviter qu'ils ne tombent à l'eau. En définitive, la vitesse optimale dépend des vagues, du programme de navigation et de l'équipage.</p>
+                    <p style="color: var(--gray);">L'expérience des excursions privées dans la baie de Saint-Jean-Cap-Ferrat par beau temps montre que l'enthousiasme atteint son maximum lorsque le bateau navigue à une vitesse inférieure de 3 nœuds avec des passagers assis à l'avant ou 2-6 nœuds avec les passagers au centre selon la météo.</p>
+                </div>
+
+                <div style="background: var(--light-gray); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1.5rem;">Vitesse d'autonomie solaire</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem;">La performance d'un bateau solaire dépend de son hydrodynamisme et de son efficacité énergétique. Toutes choses égales par ailleurs, elle se mesure dans de bonnes conditions d'ensoleillement et de mer.</p>
+                    <p style="color: var(--gray); margin-bottom: 1rem;">La vitesse d'autonomie solaire correspond à la vitesse en nœuds à laquelle le bateau solaire peut avancer indéfiniment avec pour seule source d'énergie son toit solaire. Elle est mesurée lorsque la puissance photovoltaïque produite correspond à la puissance consommée par le moteur et que le bateau navigue en se maintenant à 90% de charge batterie. Par extension, la batterie est considérée comme chargée lorsqu'elle est supérieure à 90%.</p>
+                    <p style="color: var(--gray);">Dans la pratique, la vitesse d'autonomie solaire n'a pas grand intérêt car en navigation de jour il y a toujours des arrêts pour recharger. Il est plus pertinent d'estimer une vitesse de croisière en fonction de votre programme de navigation solaire.</p>
+                </div>
+
+                <div style="background: var(--light-gray); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1.5rem;">Vitesse de croisière solaire</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem;">Il est possible de dépasser la vitesse d'autonomie solaire, voire de pousser le moteur à sa puissance maximum, à condition de tenir compte de votre programme de croisière, de la vitesse de plaisance de l'ensoleillement et de la préservation de la batterie. Voici quelques exemples et ordres de grandeurs simples pour adapter sa vitesse.</p>
+                    <ul style="margin-left: 2rem; line-height: 2.5; color: var(--gray);">
+                        <li>Si vous souhaitez rejoindre un mouillage à une distance de 3 miles nautiques et que votre consommation nette solaire est de 2,5 kW à une vitesse de croisière de 6 nœuds par mer calme, alors il suffit de 30 minutes pour rejoindre le mouillage. Vous aurez consommé 1,25 kWh, votre batterie de 5 kWh indiquera 75%. Vous aurez récupéré 100% de batterie en un peu plus d'une heure au mouillage en plein soleil.</li>
+                        <li>Si le temps s'est gâté, vous devez rentrer et supposons que la vitesse de plaisance des passagers tombe à 3 nœuds. Votre consommation nette solaire tombe à 1 kW, par mer agitée à la vitesse de croisière de 3 nœuds. Vous mettez une heure pour rentrer. A l'arrivée, vous aurez consommé 1 kWh et votre batterie indiquera 80%.</li>
+                        <li>Si vous souhaitez rentrer la nuit toujours par temps calme, en dégustant un repas, les vitesses de plaisance et croisière seront proche de 2 nœuds. Vous naviguerez 90 minutes en consommant 300 W sans apport photovoltaïque car il fait nuit. A l'arrivée, vous aurez consommé 550 Wh et votre batterie indiquera un peu moins de 90%.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>Maîtriser la maintenance</h2>
+                <p style="color: var(--gray); margin-bottom: 2rem;">Un bateau à propulsion électrique nécessite moins d'entretien que n'importe quel autre bateau. L'entretien d'un moteur électrique peut être aussi simple que le changement d'un joint, à condition de naviguer dans les règles de l'art. L'endurance des bateaux SeaZen, en conditions intensives de location prouve que cela marche.</p>
+                
+                <div style="background: var(--light-gray); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1.5rem;">Principaux composants d'un système électrique</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem;">Mais la lecture de dizaines de manuels, concernant tous les composants d'un système de propulsion électrique, peut être difficile à digérer. De plus, les techniciens de maintenance connaissant les multiples systèmes du marché sont rares dans les ports. Sachant que le moindre problème peut devenir critique, SeaZen conçoit des bateaux "Maintenance Less" et choisit les composants électriques offrant les meilleures capacités de support à distance, notamment pour les régions reculées.</p>
+                    <p style="color: var(--gray);">Voici quelques conseils de base.</p>
+                </div>
+
+                <div style="background: var(--light-gray); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1.5rem;">Entretenir son moteur</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem;">Un moteur électrique est toujours prêt à démarrer, il n'a pas besoin d'hiverner comme les moteurs thermiques. Si le moteur est hors bord, il peut basculer hors de l'eau ce qui lui permet de rester au sec. Un moteur sec est protégé contre la croissance des algues.</p>
+                    <p style="color: var(--gray); margin-bottom: 1rem;">Chaque moteur nécessite un entretien plus ou moins important, en fonction de sa technologie. Il est primordial de lire la notice constructeur, notamment pour surveiller les anodes.</p>
+                    <p style="color: var(--gray); margin-bottom: 1rem;"><strong>Avec hélice :</strong> Les moteurs à hélice possèdent un joint d'étanchéité autour de l'arbre, qui doit être vérifié périodiquement et remplacé préventivement par un centre de service agréé par le fabricant. Au quotidien, il suffit de vérifier régulièrement l'état de l'hélice et de l'anode, et de s'assurer qu'aucun fil de pêche n'est enroulé autour de l'arbre. Ce sont les principaux points sensibles de ces moteurs.</p>
+                    <p style="color: var(--gray);"><strong>Sans hélice :</strong> Les moteurs "RIM" ont une hélice qui tourne à l'intérieur d'une tuyère, ce qui évite l'entretien des joints et même des réducteurs. Selon la technologie utilisée, il peut être nécessaire ou non de vérifier que les pièces sont correctement lubrifiées. C'est tout !</p>
+                    <p style="color: var(--gray); margin-top: 1rem;">Dans tous les cas, le coût de fonctionnement d'un moteur électrique est très faible par rapport aux moteurs à combustion interne traditionnels.</p>
+                </div>
+
+                <div style="background: var(--light-gray); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1.5rem;">Préserver ses batteries</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem;">L'usure de la batterie dépend de l'utilisation que vous en faites. Les principaux indicateurs sont le % de charge, parfois appelé SOC (State Of Charge), et le ratio P entre la puissance appelé par le moteur et la puissance maximale que la batterie peut délivrer.</p>
+                    <p style="color: var(--gray); margin-bottom: 1rem;">Plusieurs technologies sont disponibles. Le lithium est particulièrement intéressant car il permet de gagner du poids, ce qui améliore l'efficacité énergétique du bateau.</p>
+                    <ul style="margin-left: 2rem; line-height: 2.5; color: var(--gray);">
+                        <li>Si vous naviguez sur la seule charge de la batterie, le vieillissement dépend essentiellement du nombre de décharges. Pour les préserver dans le temps, n'utilisez le moteur à pleine puissance qu'en cas d'urgence. Sinon, restez toujours au-dessus de 50 % de l'état de charge et à un ratio P inférieure à 0,5.</li>
+                        <li>Si vous naviguez à l'énergie solaire, vous pouvez considérer que les batteries ne sont là que pour la sécurité. Dans ce cas, les batteries peuvent rester à plus de 80% en permanence. C'est un autre avantage d'un bateau solaire : les batteries s'usent beaucoup moins.</li>
+                        <li>Dans un environnement salin, il est préférable de contrôler régulièrement la propreté de la batterie et des connexions. Un simple chiffon sec - sans toucher les connexions - permet de maintenir la batterie aussi propre qu'au premier jour. N'oubliez pas qu'en fin de vie, les batteries doivent être envoyées au recyclage.</li>
+                    </ul>
+                </div>
+
+                <div style="background: var(--light-gray); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1.5rem;">Bien utiliser l'électronique</h3>
+                    <p style="color: var(--gray);">L'électronique est nécessaire pour contrôler la chaine de puissance électrique et charger en permanence la batterie. L'électronique tombe rarement en panne lorsqu'elle est opérée dans les règles de l'art. C'est pourquoi il est important de lire les manuels et de bien s'en imprégner.</p>
+                </div>
+
+                <div style="background: var(--light-gray); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1.5rem;">Surveiller la moindre vis</h3>
+                    <p style="color: var(--gray); margin-bottom: 1rem;">Les vis doivent être en acier inoxydable pour protéger contre la corrosion en milieu salin. Mais lorsqu'elles entrent en contact avec des métaux moins nobles, comme l'aluminium utilisé dans les moteurs ou dans la structure du bateau, et qu'elles sont exposées à un électrolyte comme l'eau de mer, une réaction d'oxydation entraîne une corrosion galvanique. Il est donc nécessaire d'appliquer au préalable une couche de protection sur les vis. On trouve par exemple des produits comme le Tef-Gel. Il convient de vérifier régulièrement l'état de ces vis et de les nettoyer, puis de les enduire à nouveau dès que l'on constate un début de corrosion.</p>
+                    <p style="color: var(--gray);">Même l'acier inoxydable peut s'oxyder en mer. C'est pourquoi il est conseillé d'inspecter aussi régulièrement les visserie même s'il n'y a pas d'aluminium et, en cas d'apparition de rouille, de les remplacer par des vis en acier inoxydable A4 ou 316L.</p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>Produits et Accessoires</h2>
+                <p style="color: var(--gray); margin-bottom: 2rem;">Retrouvez nos produits d'entretien et accessoires pour vos bateaux solaires :</p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                    <div style="background: var(--light-gray); padding: 1.5rem; border-radius: 12px;">
+                        <h4 style="margin-bottom: 0.5rem;">Boitier de commande pour le Cruise 3.0</h4>
+                        <p style="font-size: 1.2rem; font-weight: 700; color: var(--dark); margin: 0.5rem 0;">169,17 €</p>
+                        <a href="#" class="btn btn-outline" style="width: 100%; margin-top: 1rem;">Aperçu rapide</a>
+                    </div>
+                    
+                    <div style="background: var(--light-gray); padding: 1.5rem; border-radius: 12px;">
+                        <h4 style="margin-bottom: 0.5rem;">Hélice puissante - 10.0 par Torqeedo</h4>
+                        <p style="font-size: 1.2rem; font-weight: 700; color: var(--dark); margin: 0.5rem 0;">190,83 €</p>
+                        <a href="#" class="btn btn-outline" style="width: 100%; margin-top: 1rem;">Aperçu rapide</a>
+                    </div>
+                    
+                    <div style="background: var(--light-gray); padding: 1.5rem; border-radius: 12px;">
+                        <h4 style="margin-bottom: 0.5rem;">Hélice bec de canard - PoD 4.0</h4>
+                        <p style="font-size: 1.2rem; font-weight: 700; color: var(--dark); margin: 0.5rem 0;">665,83 €</p>
+                        <a href="#" class="btn btn-outline" style="width: 100%; margin-top: 1rem;">Aperçu rapide</a>
+                    </div>
+                    
+                    <div style="background: var(--light-gray); padding: 1.5rem; border-radius: 12px;">
+                        <h4 style="margin-bottom: 0.5rem;">Joint à lèvres</h4>
+                        <p style="font-size: 1.2rem; font-weight: 700; color: var(--dark); margin: 0.5rem 0;">16,86 €</p>
+                        <a href="#" class="btn btn-outline" style="width: 100%; margin-top: 1rem;">Aperçu rapide</a>
+                    </div>
+                    
+                    <div style="background: var(--light-gray); padding: 1.5rem; border-radius: 12px;">
+                        <h4 style="margin-bottom: 0.5rem;">Hélice standard - 2.0 / 4.0</h4>
+                        <p style="font-size: 1.2rem; font-weight: 700; color: var(--dark); margin: 0.5rem 0;">107,50 €</p>
+                        <a href="#" class="btn btn-outline" style="width: 100%; margin-top: 1rem;">Aperçu rapide</a>
+                    </div>
+                    
+                    <div style="background: var(--light-gray); padding: 1.5rem; border-radius: 12px;">
+                        <h4 style="margin-bottom: 0.5rem;">Anode sacrificielle et joint</h4>
+                        <p style="font-size: 1.2rem; font-weight: 700; color: var(--dark); margin: 0.5rem 0;">32,50 €</p>
+                        <a href="#" class="btn btn-outline" style="width: 100%; margin-top: 1rem;">Aperçu rapide</a>
+                    </div>
+                    
+                    <div style="background: var(--light-gray); padding: 1.5rem; border-radius: 12px;">
+                        <h4 style="margin-bottom: 0.5rem;">Casquette personnalisée</h4>
+                        <p style="font-size: 1.2rem; font-weight: 700; color: var(--dark); margin: 0.5rem 0;">23,33 €</p>
+                        <a href="#" class="btn btn-outline" style="width: 100%; margin-top: 1rem;">Aperçu rapide</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SeaZen</h3>
+                    <p>Bateaux électriques solaires<br>Région PACA, France</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="qui-sommes-nous.html">À propos</a></li>
+                        <li><a href="tours-monaco-nice.html">Tours et location</a></li>
+                        <li><a href="bateaux-sre23.html">Construction</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="tours-monaco-nice.html">Tours privés</a></li>
+                        <li><a href="boat-club.html">Boat Club</a></li>
+                        <li><a href="bateaux-sre23.html">Bateaux solaires</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="contact.html">Aide & Contact</a></li>
+                        <li><a href="actualite.html">Actualité</a></li>
+                        <li><a href="media.html">Presse</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SeaZen. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
