@@ -1,0 +1,11 @@
+# Dossier pour les images du site
+# Placez ici toutes vos photos et images
+
+# Structure suggérée :
+# images/
+#   ├── team/              # Photos de l'équipe
+#   ├── boats/             # Photos des bateaux
+#   ├── tours/             # Photos des tours
+#   ├── logos/             # Logos et partenaires
+#   └── general/           # Images générales
+
