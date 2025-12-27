@@ -149,7 +149,7 @@ productForms.forEach(form => {
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('SeaZen website loaded');
+    console.log('SeaZene website loaded');
     
     // Add fade-in animation to elements
     const observerOptions = {
