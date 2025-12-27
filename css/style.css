@@ -57,13 +57,13 @@ body {
     display: flex;
     align-items: center;
     text-decoration: none;
-    height: 50px;
+    height: 70px;
 }
 
 .logo img {
-    height: 50px;
+    height: 70px;
     width: auto;
-    max-width: 200px;
+    max-width: 280px;
     object-fit: contain;
     display: block;
 }
