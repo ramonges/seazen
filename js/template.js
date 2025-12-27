@@ -5,7 +5,7 @@ function getHeader() {
         <div class="container">
             <div class="header-content">
                 <a href="index.html" class="logo">
-                    <h1>SeaZene</h1>
+                    <h1>SeaZen</h1>
                 </a>
                 
                 <nav class="nav" id="nav">
@@ -44,7 +44,7 @@ function getHeader() {
                                 <li class="dropdown-section">
                                     <span class="dropdown-title">Bateaux solaires</span>
                                     <ul>
-                                        <li><a href="bateaux-sre23.html">SEAZENE SRE 23</a></li>
+                                        <li><a href="bateaux-sre23.html">SEAZEN SRE 23</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-divider"></li>
@@ -94,7 +94,7 @@ function getFooter() {
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>SeaZene</h3>
+                    <h3>SeaZen</h3>
                     <p>Bateaux électriques solaires<br>Région PACA, France</p>
                 </div>
                 <div class="footer-section">
@@ -125,7 +125,7 @@ function getFooter() {
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 SeaZene. Tous droits réservés.</p>
+                <p>&copy; 2024 SeaZen. Tous droits réservés.</p>
             </div>
         </div>
     </footer>

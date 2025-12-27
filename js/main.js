@@ -149,7 +149,7 @@ productForms.forEach(form => {
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('SeaZene website loaded');
+    console.log('SeaZen website loaded');
     
     // Booking Popup
     const bookingOverlayBtn = document.getElementById('bookingOverlayBtn');
