@@ -1,0 +1,24 @@
+═══════════════════════════════════════════════════════════════
+  IMPORTANT : Le logo ne s'affiche pas car le fichier n'existe pas
+═══════════════════════════════════════════════════════════════
+
+PROBLÈME :
+Le fichier logo.png n'a pas été trouvé dans le dossier images/
+
+SOLUTION :
+1. Placez votre fichier logo dans ce dossier avec le nom exact : logo.png
+   Chemin complet : /Users/b23/Desktop/Seazen/seazen/images/logo.png
+
+2. Formats acceptés :
+   - logo.png (recommandé)
+   - logo.svg (si vous utilisez SVG, vous devrez aussi changer "logo.png" 
+     en "logo.svg" dans tous les fichiers HTML)
+
+3. Taille recommandée : 150-200px de largeur, 50-60px de hauteur
+
+TEMPORAIRE :
+Si le logo n'existe pas, le texte "SeaZen" s'affichera automatiquement 
+comme solution de secours grâce au fallback intégré.
+
+═══════════════════════════════════════════════════════════════
+

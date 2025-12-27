@@ -64,6 +64,7 @@ body {
     width: auto;
     max-width: 200px;
     object-fit: contain;
+    display: block;
 }
 
 .logo h1 {
