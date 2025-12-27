@@ -5,7 +5,7 @@ function getHeader() {
         <div class="container">
             <div class="header-content">
                 <a href="index.html" class="logo">
-                    <h1>SeaZen</h1>
+                    <img src="images/logo.png" alt="SeaZen" />
                 </a>
                 
                 <nav class="nav" id="nav">
