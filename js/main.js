@@ -156,11 +156,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const bookingPopup = document.getElementById('bookingPopup');
     const bookingPopupClose = document.getElementById('bookingPopupClose');
 
-    if (bookingOverlayBtn && bookingPopup) {
-        // Open popup
-        bookingOverlayBtn.addEventListener('click', () => {
+    // Function to open booking popup
+    const openBookingPopup = () => {
+        if (bookingPopup) {
             bookingPopup.classList.add('active');
             document.body.style.overflow = 'hidden';
+        }
+    };
+
+    if (bookingOverlayBtn && bookingPopup) {
+        // Open popup from overlay button
+        bookingOverlayBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            openBookingPopup();
+        });
+
+        // Open popup from links with class "open-booking-popup"
+        document.querySelectorAll('.open-booking-popup').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                openBookingPopup();
+            });
         });
 
         // Close popup when clicking close button
