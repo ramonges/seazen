@@ -147,6 +147,43 @@ productForms.forEach(form => {
     });
 });
 
+// Booking Popup
+const bookingOverlayBtn = document.getElementById('bookingOverlayBtn');
+const bookingPopup = document.getElementById('bookingPopup');
+const bookingPopupClose = document.getElementById('bookingPopupClose');
+
+if (bookingOverlayBtn && bookingPopup) {
+    // Open popup
+    bookingOverlayBtn.addEventListener('click', () => {
+        bookingPopup.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    });
+
+    // Close popup when clicking close button
+    if (bookingPopupClose) {
+        bookingPopupClose.addEventListener('click', () => {
+            bookingPopup.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    }
+
+    // Close popup when clicking outside
+    bookingPopup.addEventListener('click', (e) => {
+        if (e.target === bookingPopup) {
+            bookingPopup.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    });
+
+    // Close popup with Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && bookingPopup.classList.contains('active')) {
+            bookingPopup.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    });
+}
+
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
     console.log('SeaZene website loaded');
